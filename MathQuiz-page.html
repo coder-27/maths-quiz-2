@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Math Quiz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="game.css">
+    <script> src="login_quiz.js"</script>
+</head>
+
+<body>
+
+    <h4 id="quizzer1_name"></h4><span id="quizzer1_score"></span>
+    <h4 id="quizzer2_name"></h4><span id="quizzer2_score"></span>
+    <div class="container">
+        <center>
+            <h2 style="color:white;">Math Quiz!</h2>
+            <h3 id="quizzer_question"></h3>
+            <h3 id="quizzer_answer"></h3>
+            <div id="output" class="col-lg-6"></div>
+            <br>
+            <br>
+            <label>Send Your Number<br><b>Try Putting 1 digit into 1 digit sums.</b></label>
+            <h3  id="number">Number 1</h3>
+            <input id="number_1_input" type="number" placeholder="Type The First Number" class="form-control">
+            <h3 id="number">Number 2</h3>
+            <input id="number_2_input" type="number" placeholder="Type The First Number" class="form-control">
+            <br>
+            <button id="Number_submit" class="btn btn-success">Send Question</button>
+            <br>
+        </center>
+    </div>
+
+</body>
+
+</html>
